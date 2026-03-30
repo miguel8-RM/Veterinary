@@ -14,7 +14,7 @@ namespace Veterinary.Shared.Entities
         [MaxLength(20, ErrorMessage = "The document field cannot more than 20 characters.")]
         public string Document { get; set; }
 
-        [Display(Name = "Nombres")]
+        [Display(Name = "Nombre")]
         [Required(ErrorMessage = "The document field is required.")]
         [MaxLength(50, ErrorMessage = "The Name field cannot more than 20 characters.")]
         public string FirstName { get; set; }
